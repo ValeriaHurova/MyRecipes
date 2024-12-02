@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.background{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+    margin-top: 15px;
+    border-radius:5px;
+    border: 1px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.par{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.589);
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(16, 60, 15);
 }
 
-.App-link {
-  color: #61dafb;
+.list{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   list-style-type: none;
+ }
+
+ h1{
+    font-family: "Kanit", sans-serif;
+    background-color: rgba(240, 248, 255, 0.677);
+    padding: 5px;
+    color: rgb(18, 69, 17);
+ }
+
+ input{
+    padding: 10px;
+    background-color: rgb(223, 238, 189);
+    font-family: "Kanit", sans-serif;
+
+ }
+
+ h2, h3, h4, li{
+    font-family: "Kanit", sans-serif;
+    /* background-color: rgba(240, 248, 255, 0.628); */
+    padding: 2px;
+    color: rgb(0, 0, 0);
+ }
+
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.singlcontainer{
+    width: 400px;
+    background-color: rgba(240, 248, 255, 0.323);
+    margin: 5px;
+    border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btningredients{
+    padding: 5px;
+    background-color:rgb(18, 69, 17);
+    color: aliceblue;
+
 }
