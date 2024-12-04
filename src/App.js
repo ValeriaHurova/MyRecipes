@@ -42,11 +42,8 @@ function App() {
       <div className='container' >
         <form onSubmit={finalSearch}>
           <input placeholder='Search...' onChange ={myRecipeSearch} value={mySearch}/>
+          <button className='list form'><img src={icon} alt="icon" width="30px"/></button>
         </form>
-      </div>
-
-      <div className='container'>
-        <button onClick={finalSearch}><img src={icon} alt="icon" width="30px"/></button>
       </div>
 
       <div className='maincontainer' >
